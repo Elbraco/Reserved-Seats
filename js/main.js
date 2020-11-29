@@ -18,7 +18,7 @@ function randomSeats(min, max){
     let icon = document.querySelectorAll('i')
 for( min; min < max; min++) {
 
-    let random = Math.floor( Math.random() * 79 - min + 1) + min
+    let random = Math.floor( Math.random() * 60 - min + 1) + min
 
     icon[random].classList.add('disabled')
     }
@@ -30,7 +30,7 @@ for( min; min < max; min++) {
         
         const places = document.createElement('i')
         places.classList.add('red')
-        places.classList.add('fas', 'fa-loveseat')
+        places.classList.add('fas', 'fa-rectangle-landscape')
         sideSeats.appendChild(places)
     
         let numberPlace = document.createElement('span')
@@ -93,10 +93,10 @@ for( min; min < max; min++) {
      
    });
 
-    centerSeat(1, 65, seatsCenter);
-    centerSeat(65, 73, seatsRight);
-    centerSeat(73, 81, seatsLeft);
-    randomSeats(1, 25)
+    centerSeat(1, 45, seatsCenter);
+    centerSeat(45, 53, seatsRight);
+    centerSeat(53, 61, seatsLeft);
+    randomSeats(1, 15)
     
     
     
