@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Salle de Cinéma</h1>
+        <div class="movie-container">
+            <label>Pick a movie:</label>
+            <select id="movie">
+              <option value="10">DeadPool 2 ($10)</option>
+              <option value="12">Annabelle ($12)</option>
+              <option value="8">Bad Boys 3 ($8)</option>
+              <option value="9">The Lion King ($9)</option>
+            </select>
+          </div>
+    </header>
+    <main>
+        <div class="screen">
+            <div></div>
+        </div>
+        <div class="seats-right"></div>
+       <div class="seats-center"></div>
+       <div class="seats-left"></div>
+    </main>
+    <footer>
+       <p> <span id="price">0</span>$</p>
+        <div class="legend">
+            <div>
+                <p>Place Disponible</p>
+                <i class="red fas fa-loveseat"></i>
+            </div>
+<div>
+    <p>Place réservée</p>
+    <i class="red fas fa-loveseat"></i>
+</div>
+<div>
+    <p>Place occupée</p>
+    <i class="red fas fa-loveseat disabled"></i>
+</div>
+
+        </div>
+<div>
+    <p>Places Sélectionées <strong id="number-selected">0</strong></p>
+</div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/main1.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+Places disponibles-occupées
+
+- Créez les icones des Places avec 2x10 des deux cotés et au centre 7x10
+- Au click des places, les places changent de couleurs et sont désormais occupées
+- Lorsques les places sélectionnées (occupées) indiquer les prix des places à chaque clique.
+
+
